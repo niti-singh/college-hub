@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.carouse-banner{
+    height: 70vh;
+}
+
+@media screen and (max-width: 780px) {
+    .carouse-banner{
+        height: 50vh;
+    }
+}
+@media screen and (max-width: 499px) {
+    .carouse-banner{
+        height: 30vh;
+    }
+}
+@media screen and (max-width: 299px) {
+    .carouse-banner{
+        height: 25vh;
+    }
+}

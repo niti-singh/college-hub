@@ -1,0 +1,54 @@
+.faculty-text{
+    text-align: center;
+}
+.faculty-hr{
+    width: 140px;
+    height: 4px;
+    background-color: #f89d2a;
+    border: none;
+    outline: none;
+    margin: 10px auto;
+    border-radius: 2px;
+    opacity: 1;
+}
+.facultycontaint{
+   width: 80%;
+   height: auto;
+   padding: 20px 0;
+   margin: 0 auto;
+}
+.faculty-card-subbox{
+    width: 94%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px 20px;
+}
+.card-text{
+    padding: 0;
+}
+
+@media screen and (max-width: 576px) {
+    .faculty-card{
+        margin: 10px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .faculty-card-subbox{
+        width: 80%;
+        gap: 0 10px;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .facultycontaint{
+        width: 100%;
+        padding: 20px 14px;
+     }
+    .faculty-card-subbox img{
+        width: 60%;
+    }
+}

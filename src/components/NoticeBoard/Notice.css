@@ -1,0 +1,75 @@
+.Notice-heading{
+    margin: 17px 0;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Notice-heading h2{
+    font-size: 3rem;
+    color: black;
+    font-weight: 600;
+}
+.Notice-heading h2 hr{
+    width: 180px;
+    height: 4px;
+    border: none;
+    outline: none;
+    background-color: #2b7a78;
+    border-radius: 2px;
+    margin: 10px auto;
+    opacity: 1;
+}
+
+
+
+
+.Notice-Content{
+    margin-top: -95px;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../public/images/board2.jpg" );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+.Notice-Content h2{
+    font-size: 1rem;
+    color: #fefefe;
+    font-weight: 500;
+}
+
+
+
+
+@media screen and (max-width: 449px) {
+   
+    .Notice-heading h2{
+        
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .Notice-heading h2 hr{
+        width: 100px;
+    }
+
+    .Notice-Content h2{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
+    
+}

@@ -1,0 +1,156 @@
+.Plus_container{
+
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  z-index: 999; /* Adjust this value to control the stacking order */
+  background-color: rgba(0, 0, 0, 0.7);
+
+    
+}
+.PlusButton{
+    background-color: #2b7a78;
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-gap: 20px; /* Spacing between items */
+}
+
+/* Style for each user item */
+.user-item {
+  
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 10px 8px 10px #888888;
+  text-align: center;
+  align-items: center;
+  width: 310px;
+}
+
+/* Style for user image */
+.user-item img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+
+/* Style for user details */
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for user detail rows */
+.user-details > div {
+  margin-bottom: 5px;
+}
+
+/* Style for buttons */
+.user-item button {
+  border: none;
+  background-color: white;
+  color: #2b7a78;
+  cursor: pointer;
+  width: 70px;
+}
+
+
+/* Plus.css */
+
+/* Style for form container */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+/* Style for form input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style for form labels */
+form p {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Style for the Submit button */
+form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/*description*/
+.book_description{
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.book_hr{
+  width: 180px;
+    height: 4px;
+    border: none;
+    outline: none;
+    background-color: #2b7a78;
+    border-radius: 2px;
+    margin: 10px auto;
+    opacity: 1;
+    margin-bottom: 70px;
+
+}
+
+
+
+
+@media screen and (min-width: 300px) {
+  .user-grid {
+    grid-template-columns: repeat(1, 1fr); /* For medium screens, display 2 columns */
+  }
+}
+@media screen and (min-width: 675px) {
+  .user-grid {
+    grid-template-columns: repeat(2, 1fr); /* For medium screens, display 2 columns */
+  }
+}
+@media screen and (min-width: 768px) {
+  .user-grid {
+    grid-template-columns: repeat(2, 1fr); /* For medium screens, display 2 columns */
+  }
+}
+
+/* Media query for screens wider than 992px */
+@media screen and (min-width: 992px) {
+  .user-grid {
+    grid-template-columns: repeat(4, 1fr); /* For large screens, display 4 columns */
+  }
+}

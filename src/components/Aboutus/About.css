@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.about-img img{
+    box-shadow: rgba(255, 165, 0) -25px -25px;
+}
+
+
+/* About heading section  */
+.About-heading{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About-heading h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #222;
+}
+
+/* about image & text section  */
+.About-container{
+    width: 100%;
+    height: auto;
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ac-3{
+    padding: 20px 0;
+}
+.at-3{
+    margin: 40px auto;
+}
+.about-content{
+    text-align: justify;
+}
+.about-box{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto);
+    gap: 0 20px;
+}
+.about-img, .about-img01{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-img img{
+    width: 80%;
+    height: 80%;
+}
+.about-img01 img{
+    width: 80%;
+    height: 90%;
+}
+@media screen and (max-width: 1000px) {
+    .about-img img, .about-img01 img{
+        width: 100%;
+        height: 70%;
+    }   
+}
+@media screen and (max-width: 860px) {
+    .about-img img, .about-img01 img{
+        width: 100%;
+        height: 60%;
+    }   
+}
+.about-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.about-text h1, .about-text01 h1, .about-text02 h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #222;
+    padding: 0 0 10px 0;
+}
+.about-text p, .about-text01 p, .about-text02 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 780px) {
+    .about-box{
+        width: 90%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }   
+    .about-img img, .about-img01 img{
+        width: 70%;
+        height: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 349px) {
+    .About-heading{
+        justify-content: flex-start;
+        padding: 10px 20px;
+    }
+    .about-box{
+        width: 100%;
+    }
+    .about-img img, .about-img01 img{
+        width: 90%;
+        height: 90%;
+    }
+    .about-text p, .about-text01 p, .about-text02 p{
+        text-align: justify;
+    }
+    .about-text{
+        padding: 10px;
+    }
+}
