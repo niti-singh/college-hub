@@ -12,7 +12,7 @@ const Gallerydata = [
         heading: "Sports"
     },
     {
-        link: "/placements",
+        link: "/placement",
         img: "./images/campus.jpg",
         heading: "Placements"
     },

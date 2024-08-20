@@ -13,14 +13,14 @@ const Carddata = [
         heading: "Event Calendar"
     },
     {
-        link: "/nanny",
-        icon: "./images/daycare-center.png",
+        link: "/Compus",
+        icon: "./images/icon2.png",
         img: "./images/campus.jpg",
         heading: "Campus Drive"
     },
     {
         link: "/gallery",
-        icon: "./images/daycare-center.png",
+        icon: "./images/icon3.png",
         img: "./images/jit3.jpg",
         heading: "Gallery"
     },

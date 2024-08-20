@@ -1,0 +1,37 @@
+.vihangam {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-container {
+    position: relative;
+    margin: 5px;
+  }
+  
+  .image-container img {
+    width: 100%; /* Adjust the width as needed */
+    height: auto;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  .image-container .year {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 3px;
+    font-size: 10px; /* Adjust the font size as needed */
+    border-radius: 3px;
+  }
+  
+  .image-container:hover img {
+    border-color: #333;
+  }
+  
+  @media (min-width: 768px) {
+    .image-container {
+      width: 48%; /* Display two images per row on larger screens */
+    }
+  }
+  

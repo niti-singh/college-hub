@@ -14,10 +14,16 @@ import About from "./components/Aboutus/About";
 import Gallery from "./components/Gallery/Gallery"
 import Vihangam from "./components/Gallery/Vihangam";
 import Sports from "./components/Gallery/Sports";
-
-
+import Compus from "./components/CompusDrive/Compus";
+import Placement from "./components/Gallery/Placement";
+import Other from "./components/Gallery/Other/Other";
+import Acedmic from "./components/Gallery/Other/Acedimc";
+import Exams from "./components/Gallery/Other/Exams";
+import Tournament from "./components/Gallery/Other/Tournament";
+import Lab from "./components/Gallery/Other/Lab";
 function App() {
   return (
+
     <Router>
        <Nav/>
        <Routes>
@@ -27,7 +33,6 @@ function App() {
            <Notice/>
            <Cards/>
            <IMP/>
-           
            
            
            
@@ -42,9 +47,13 @@ function App() {
         <Route path="gallery" element={<Gallery/>}/>
         <Route path="vihangam" element={<Vihangam/>}/>
         <Route path="sports" element={<Sports/>}/>
-        
-      
-    
+        <Route path="compus" element={<Compus/>}/>
+        <Route path="placement" element={<Placement/>}/>
+        <Route path="other" element={<Other/>}/>
+        <Route path="acedmic" element={<Acedmic/>}/>
+        <Route path="exams" element={<Exams/>}/>
+        <Route path="tournaments" element={<Tournament/>}/>
+        <Route path="labs" element={<Lab/>}/>
        </Routes>
        <Footer1/>
 

@@ -5,7 +5,7 @@ function Notice() {
   const [noticeText, setNoticeText] = useState('');
   const [showTextarea, setShowTextarea] = useState(false);
   const [email, setEmail] = useState('');
-  const authorizedEmail = 'komalkushwah056@gmail.com'; // Replace with your authorized email address
+  const authorizedEmail = 'nitusingh34943@gmail.com'; // Replace with your authorized email address
 
   useEffect(() => {
     const storedNotice = localStorage.getItem('noticeText');
@@ -61,9 +61,13 @@ function Notice() {
             </form>
           </div>
         )}
+       
         {!showTextarea && (
-          <button className='Addnotice' onClick={toggleTextarea}>Add Notice</button>
+          
+         <center><button className='Addnotice' onClick={toggleTextarea}>Add Notice</button></center>
+          
         )}
+       
       </div>
       <div className='Notice-Content'>
         {!showTextarea && noticeText && (

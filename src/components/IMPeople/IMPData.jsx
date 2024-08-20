@@ -15,10 +15,10 @@ const IMPData =[
     },
     {
         id: "1",
-        image1: "./images/proile.png",
-        Name1: "Mohit Bhawsar",
+        image1: "./images/Nitin Sir.jpg",
+        Name1: "TOP. Nitin Namdev",
         Contact1: <a href="tel://9340727669" style={{color:"black", textDecoration:"none"}}>9340727669</a>,
-        Address1: "Khargone"
+        Address1: "(TOP Officer)"
     },
 ]
 
